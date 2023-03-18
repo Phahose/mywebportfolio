@@ -2,12 +2,17 @@ body{
     background: url(../img/black.avif) center;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
 }
 header{
     /* background-color:#0e0f0f ; */
     margin-top: 0;
 }
+
 h2, h1, p:first-of-type{
     font-family: 'Technology', sans-serif;
     color: #fff;
@@ -104,4 +109,25 @@ span{
     color: gold;
     font-family: 'High Pixel-7', sans-serif;     
     text-align: center;          
+  }
+  .experience li{
+    color:#fff;
+    font-family: 'High Pixel-7', sans-serif;
+  }
+   .experience-header{
+    color: gold;
+    font-family: 'High Pixel-7', sans-serif;     
+    text-align: center; 
+  }
+  .experience h3{
+    color:#fff;
+    font-family: 'High Pixel-7', sans-serif;
+  }
+  .experience{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50rem;
+  }
+  .experience div{
+    display: flex;
   }
