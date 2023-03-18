@@ -12,21 +12,21 @@ h2, h1, p:first-of-type{
     font-family: 'Technology', sans-serif;
     color: #fff;
 }
-ul{
+.header-ul{
     display: flex;
     
 }
-ul>li{
+.header-ul>li{
     margin: 1rem;
    list-style: none;
    font-family: Arial, Helvetica, sans-serif;
  
 }
-ul>li>a{
+.header-ul>li>a{
     text-decoration: none;
     color: #fff;
 }
-ul>li>a:hover{
+.header-ul>li>a:hover{
  color: gold;
  font-size: 110%;
 }
@@ -80,6 +80,28 @@ span{
   }
   .about-summary>h2{
     color: gold;
+    font-family: 'High Pixel-7', sans-serif;                                          
+  }
+  .skills{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50rem;
+    display: flex;
+    /* padding-left: 15rem; */
+  }
+  .skills li{
+    color:#fff;
     font-family: 'High Pixel-7', sans-serif;
-                                            
+                                                
+  }
+  .skills div{
+    margin: auto;
+  }
+ .skillsfirstdiv{
+  border: #fff;
+  }
+  .skillhead{
+    color: gold;
+    font-family: 'High Pixel-7', sans-serif;     
+    text-align: center;          
   }
