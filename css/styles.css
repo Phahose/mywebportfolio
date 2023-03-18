@@ -1,0 +1,50 @@
+body{
+    background: url(../img/black.avif) center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+header{
+    /* background-color:#0e0f0f ; */
+    margin-top: 0;
+}
+h2, h1, p:first-of-type{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+ul{
+    display: flex;
+    
+}
+ul>li{
+    margin: 1rem;
+   list-style: none;
+   font-family: Arial, Helvetica, sans-serif;
+ 
+}
+ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+ul>li>a:hover{
+ color: gold;
+ font-size: 110%;
+}
+.firstdiv{
+    padding-left: 3rem;
+}
+.firstdiv>section>h1{
+    font-size: 300%;
+}
+span{
+    color: gold;
+}
+
+.firstdiv>section>a{
+    text-decoration: none;
+    color: #fff;
+}
+.firstdiv>section>a:hover{
+    color: gold;
+    
+}
