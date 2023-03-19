@@ -131,3 +131,42 @@ span{
   .experience div{
     display: flex;
   }
+  .education h2{
+    color: gold;
+    font-family: 'High Pixel-7', sans-serif;     
+    text-align: center; 
+  }
+  .education h3{
+    color:#fff;
+    font-family: 'High Pixel-7', sans-serif;
+    max-width: 50rem;
+    text-align: center;
+  }
+  .education{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50rem;
+  }
+  .education h4{
+    color:#fff;
+    font-family: 'High Pixel-7', sans-serif;
+    max-width: 50rem;
+    text-align: center;
+  }
+  .education li{
+    color:#fff;
+    font-family: 'High Pixel-7', sans-serif;
+  }
+  .transition-fade{
+   animation: transitionIn 1.5s;
+   transform-origin: left;
+  }
+  @keyframes transitionIn {
+    from{
+      opacity: 1;
+      transform: translateX(100%);
+    }
+    to{
+      opacity: 1;
+    }
+  }
