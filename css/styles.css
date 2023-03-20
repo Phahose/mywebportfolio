@@ -170,3 +170,18 @@ span{
       opacity: 1;
     }
   }
+
+  .works p{
+    color:#fff;
+    font-family: 'High Pixel-7', sans-serif;
+
+  }
+  .works{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    max-width: 50rem;
+    border-radius: 5%;
+  }
+
+   
