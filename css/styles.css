@@ -9,8 +9,9 @@ body{
     overflow-x: hidden;
 }
 header{
-    /* background-color:#0e0f0f ; */
     margin-top: 0;
+    position: sticky;
+    top: 0;
 }
 
 h2, h1, p:first-of-type{
@@ -184,4 +185,10 @@ span{
     border-radius: 5%;
   }
 
+  .header-bar{
+    background-color: black;
+    height: 5rem;
+    padding-top: 0.5rem;
+    transition: 0.5s;
+  }
    
