@@ -10,7 +10,7 @@ body{
 }
 header{
     margin-top: 0;
-    position: sticky;
+    position: sticky top ;
     top: 0;
 }
 
@@ -177,6 +177,12 @@ span{
     font-family: 'High Pixel-7', sans-serif;
 
   }
+  .body{
+    font-family: 'High Pixel-7', sans-serif;
+  }
+  .body p{
+    font-family: 'High Pixel-7', sans-serif;
+  }
   .works{
     margin-left: auto;
     margin-right: auto;
@@ -186,9 +192,32 @@ span{
   }
 
   .header-bar{
-    background-color: black;
+    background: hsla(0, 0%, 1%, 1);
     height: 5rem;
     padding-top: 0.5rem;
     transition: 0.5s;
   }
+  .Upstream{
+    padding-bottom: 1rem;
+  }
    
+   .upstreambutton{
+    padding: 1rem;
+    text-align: center;
+    text-decoration: underline;
+    font-size: x-large;
+    color: white;
+   }
+   .upstreambutton:hover{
+    padding: 1rem;
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+    color: gold;
+   }
+ 
+   .carcontainer{
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+   }
