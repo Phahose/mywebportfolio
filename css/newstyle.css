@@ -1,0 +1,154 @@
+.div1{
+    background-color: black;
+    padding: 1rem;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90vw;
+    margin: auto;
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    margin-bottom: 10rem;
+}
+header ul{
+    display: flex;
+    width: 20rem;
+    height: 2rem;
+}
+header ul>li{
+    display: flex;
+    align-self: end;
+    text-decoration: none;
+    margin-right: auto;  
+}
+header ul>li>a{
+    text-decoration: none;
+    margin-right: auto;  
+    color: white;
+}
+header ul>li:hover a{
+    color: gold;
+    font-size: 110%;
+}
+header h1{
+    color: white;
+}
+.intro-section{
+    max-width: 90vw;
+    margin: auto;
+}
+.intro-section h1{
+    font-size: 55px;
+    margin-bottom: 2rem;
+}
+.intro-section p{
+    font-size: x-large;
+    max-width: 20rem;
+}
+.team-image{
+    max-width: 90vw;
+    margin: auto;
+}
+.team-image img{
+    max-width: 90vw;
+}
+.summary1{
+    max-width: 60rem;
+    font-size: large;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 14rem;
+}
+.clients{
+    height: 40rem;
+    padding-top: 10rem;
+}
+.clients section{
+    margin: auto;
+    max-width: 58rem;
+    justify-content: space-between;
+    height: 15rem;
+    text-align: center;
+}
+.clients section h2{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    font-size: 60px;
+}
+.clients section>a {
+    text-decoration: none;
+    color: #fff;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 10rem;
+}
+.clients section>a:hover{
+    padding: 1.2rem;
+}
+.work{
+    background: url(../img/black.avif) center;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    color: white;
+}
+.carcontainer{
+    max-width: 50rem;
+    margin: auto;
+    margin-top: 8rem;
+    text-align: center;
+}
+.carcontainer h2{
+    margin: auto;
+    max-width: fit-content;
+    padding: 1rem;
+}
+.carcontainer p{
+    margin: auto;
+    max-width: fit-content;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.carcontainer a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10rem;   
+}
+.worked-with{
+    text-align: center;
+    height: 40rem;
+    padding-top: 10rem;
+}
+.worked-with h2{
+    font-size: 50px;
+}
+.you{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 40rem;
+    padding-top: 10rem;
+}
+.you h2{
+    font-size: 70px;
+    margin-bottom: 3rem;
+}
+.you a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10rem;   
+}
