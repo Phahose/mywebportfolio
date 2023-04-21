@@ -302,6 +302,17 @@ header h1{
     transition: all 0.5s ease-in-out;
     padding: 1.2rem;
    }
+   .email{
+    padding: 0.5rem;
+    border-radius: 2rem;
+   }
+    .number{
+        margin-top: 1.2rem;
+    }
+   .email:hover{
+    transition: all 0.5s ease-in-out;
+    font-size: x-large;
+   }
    @media (max-width: 760px) {
    .hamburger{
     display: block;
