@@ -36,7 +36,10 @@ header{
     background-color: black;
     margin-bottom: 10rem;
 }
-
+header a:first-of-type{
+    text-decoration: none;
+    padding-top: 0.5rem;
+}
 header ul{
     display: flex;
     width: 20rem;
