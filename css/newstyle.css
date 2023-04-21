@@ -20,6 +20,11 @@ body{
     transition: all 0.3s ease-in-out;
     background-color: white;
 }
+.f-div{
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -31,6 +36,7 @@ header{
     background-color: black;
     margin-bottom: 10rem;
 }
+
 header ul{
     display: flex;
     width: 20rem;
