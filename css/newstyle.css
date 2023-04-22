@@ -327,7 +327,7 @@ header h1{
    }
    .hamburger.active .bar:nth-child(2){
     transform: translateY(8px) rotate(45deg);
-    margin-bottom: 0.7rem;
+    margin-bottom: .8rem;
    }
    .hamburger.active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
