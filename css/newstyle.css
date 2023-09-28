@@ -6,6 +6,7 @@ body{
     background-color: black;
     padding: 1rem;
     color: white;
+    padding-bottom: 5rem;
 }
 .hamburger{
     display: none;
@@ -88,7 +89,7 @@ header h1{
     font-size: large;
     margin: auto;
     padding-top: 2rem;
-    padding-bottom: 14rem;
+    padding-bottom: 5rem;
 }
 .clients{
     height: 40rem;
@@ -105,7 +106,7 @@ header h1{
     text-align: center;
     font-weight: 500;
     margin-bottom: 2rem;
-    font-size: 60px;
+    font-size: 50px;
 }
 .clients section>a {
     text-decoration: none;
@@ -275,6 +276,16 @@ header h1{
 .c-info {
     margin-top: 2rem;
 }
+.f-flex{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90vw;
+    margin: auto;
+}
+.bing{
+    margin-top: 20rem;
+    max-width: 40rem;
+}
 .contact-section a{
     font-size: larger;
     text-decoration: none;
@@ -316,12 +327,27 @@ header h1{
     transition: all 0.5s ease-in-out;
     font-size: x-large;
    }
+   @media (max-width: 1500px){
+    .f-flex{
+        display: block;
+    }
+    .bing{
+        margin-top: 20rem;
+        max-width: 40rem;
+    }
+   }
    @media (max-width: 760px) {
    .hamburger{
     display: block;
     margin-bottom: 3rem;
    }
-
+   .f-flex{
+    display: block;
+}
+.bing{
+    margin-top: 20rem;
+    max-width: 40rem;
+}
    .hamburger.active .bar:nth-child(1){
     opacity: 0;
    }
