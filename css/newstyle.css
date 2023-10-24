@@ -247,6 +247,7 @@ header h1{
 }
 .contact-section
 {
+    margin-top: 6rem;
     text-align: center;
     height: 30rem;
     justify-content: space-around;
