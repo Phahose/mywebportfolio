@@ -178,6 +178,7 @@ header h1{
 }
 /* Works Page  */
 .mywork{
+    padding-top: 6rem;
     text-align: center;
     font-size: 50px;
     margin-bottom: 6rem;
@@ -333,18 +334,25 @@ header h1{
         max-width: 40rem;
     }
    }
-   @media (max-width: 760px) {
+@media (max-width: 760px) {
    .hamburger{
     display: block;
     margin-bottom: 3rem;
    }
    .f-flex{
     display: block;
-}
-.bing{
+    }
+    .bing{
     margin-top: 20rem;
     max-width: 40rem;
-}
+    }
+    .mywork{
+        font-size: 40px;
+    }
+    .resaon{
+        font-size: 20px;
+        text-align: center;
+    }
    .hamburger.active .bar:nth-child(1){
     opacity: 0;
    }
