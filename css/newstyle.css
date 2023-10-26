@@ -116,9 +116,9 @@ header h1{
 }
 .work{
     background: url(../img/black.avif) center;
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
-    overflow: scroll;
+    overflow: hidden;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -340,12 +340,24 @@ header h1{
         height: fit-content;
         padding-bottom: 5rem;
     }
+    .work{
+        width: 100%;  
+    }
 }
 @media (max-width: 760px) {
    .hamburger{
     display: block;
     margin-bottom: 3rem;
    }
+   .work{
+    width: 96vw;  
+    }
+    .carcontainer{
+        max-width: 80%;
+        margin: auto;
+        margin-top: 8rem;
+        text-align: center;
+    }
    .f-flex{
     display: block;
     }
