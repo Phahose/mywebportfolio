@@ -273,6 +273,7 @@ header h1{
     margin-top: 2rem;
 }
 .f-flex{
+    padding-top: 6rem;
     display: flex;
     justify-content: space-between;
     max-width: 90vw;
