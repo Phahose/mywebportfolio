@@ -211,6 +211,7 @@ header h1{
 .img-sec img:hover{
     transform: scale(1.05);
 }
+
 .img-sec{ 
     flex: 50%;
     width: 25%;
